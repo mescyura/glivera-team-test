@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Dashboard</title>
+		<link rel="stylesheet" href="./css/main.min.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="backdrop is-hidden">
+				<div class="mobile-menu">
+					<a class="mobile-menu__logo" href="/">
+						<img src="./assets/svg/logo.svg" alt="" />
+						<div class="mobile-menu__logo-text">
+							<h2>Dashboard</h2>
+							<p>v.01</p>
+						</div>
+					</a>
+
+					<button class="mobile-menu__close-icon menu-btn-close">
+						<svg width="24" height="24">
+							<use href="./assets/svg/icons.svg#icon-close"></use>
+						</svg>
+					</button>
+
+					<nav>
+						<ul class="mobile-menu__menu">
+							<li class="mobile-menu__menu-item" data-name="Dashboard">
+								<svg class="mobile-menu__icon" width="32" height="32">
+									<use href="./assets/svg/icons.svg#key"></use>
+								</svg>
+								<p>Dashboard</p>
+							</li>
+							<li class="mobile-menu__menu-item" data-name="Product">
+								<svg class="mobile-menu__icon" width="32" height="32">
+									<use href="./assets/svg/icons.svg#key"></use>
+								</svg>
+								<p>Product</p>
+								<svg class="mobile-menu__icon" width="16" height="16">
+									<use href="./assets/svg/icons.svg#arrow"></use>
+								</svg>
+							</li>
+							<li class="mobile-menu__menu-item active" data-name="Customers">
+								<svg class="sidebar__icon" width="32" height="32">
+									<use href="./assets/svg/icons.svg#key"></use>
+								</svg>
+								<p>Customers</p>
+								<svg class="mobile-menu__icon" width="16" height="16">
+									<use href="./assets/svg/icons.svg#arrow"></use>
+								</svg>
+							</li>
+							<li class="mobile-menu__menu-item" data-name="Income">
+								<svg class="sidebar__icon" width="32" height="32">
+									<use href="./assets/svg/icons.svg#key"></use>
+								</svg>
+								<p>Income</p>
+								<svg class="mobile-menu__icon" width="16" height="16">
+									<use href="./assets/svg/icons.svg#arrow"></use>
+								</svg>
+							</li>
+							<li class="mobile-menu__menu-item" data-name="Promote">
+								<svg class="mobile-menu__icon" width="32" height="32">
+									<use href="./assets/svg/icons.svg#key"></use>
+								</svg>
+								<p>Promote</p>
+								<svg class="mobile-menu__icon" width="16" height="16">
+									<use href="./assets/svg/icons.svg#arrow"></use>
+								</svg>
+							</li>
+							<li class="mobile-menu__menu-item" data-name="Help">
+								<svg class="mobile-menu__icon" width="32" height="32">
+									<use href="./assets/svg/icons.svg#key"></use>
+								</svg>
+								<p>Help</p>
+								<svg class="mobile-menu__icon" width="16" height="16">
+									<use href="./assets/svg/icons.svg#arrow"></use>
+								</svg>
+							</li>
+						</ul>
+					</nav>
+					<div class="mobile-menu__profile">
+						<img src="./assets/avatar.jpg" alt="Profile Picture" />
+						<p>Evano<br /><span>Project Manager</span></p>
+					</div>
+				</div>
+			</div>
+
+			<aside class="sidebar">
+				<a class="sidebar__logo" href="/">
+					<img src="./assets/svg/logo.svg" alt="" />
+					<div class="sidebar__logo-text">
+						<h2>Dashboard</h2>
+						<p>v.01</p>
+					</div>
+				</a>
+				<nav>
+					<ul class="sidebar__menu">
+						<li class="sidebar__menu-item" data-name="Dashboard">
+							<svg class="sidebar__icon" width="32" height="32">
+								<use href="./assets/svg/icons.svg#key"></use>
+							</svg>
+							<p>Dashboard</p>
+						</li>
+						<li class="sidebar__menu-item" data-name="Product">
+							<svg class="sidebar__icon" width="32" height="32">
+								<use href="./assets/svg/icons.svg#key"></use>
+							</svg>
+							<p>Product</p>
+							<svg class="sidebar__icon" width="16" height="16">
+								<use href="./assets/svg/icons.svg#arrow"></use>
+							</svg>
+						</li>
+						<li class="sidebar__menu-item active" data-name="Customers">
+							<svg class="sidebar__icon" width="32" height="32">
+								<use href="./assets/svg/icons.svg#key"></use>
+							</svg>
+							<p>Customers</p>
+							<svg class="sidebar__icon" width="16" height="16">
+								<use href="./assets/svg/icons.svg#arrow"></use>
+							</svg>
+						</li>
+						<li class="sidebar__menu-item" data-name="Income">
+							<svg class="sidebar__icon" width="32" height="32">
+								<use href="./assets/svg/icons.svg#key"></use>
+							</svg>
+							<p>Income</p>
+							<svg class="sidebar__icon" width="16" height="16">
+								<use href="./assets/svg/icons.svg#arrow"></use>
+							</svg>
+						</li>
+						<li class="sidebar__menu-item" data-name="Promote">
+							<svg class="sidebar__icon" width="32" height="32">
+								<use href="./assets/svg/icons.svg#key"></use>
+							</svg>
+							<p>Promote</p>
+							<svg class="sidebar__icon" width="16" height="16">
+								<use href="./assets/svg/icons.svg#arrow"></use>
+							</svg>
+						</li>
+						<li class="sidebar__menu-item" data-name="Help">
+							<svg class="sidebar__icon" width="32" height="32">
+								<use href="./assets/svg/icons.svg#key"></use>
+							</svg>
+							<p>Help</p>
+							<svg class="sidebar__icon" width="16" height="16">
+								<use href="./assets/svg/icons.svg#arrow"></use>
+							</svg>
+						</li>
+					</ul>
+				</nav>
+				<div class="sidebar__profile">
+					<img src="./assets/avatar.jpg" alt="Profile Picture" />
+					<p>Evano<br /><span>Project Manager</span></p>
+				</div>
+			</aside>
+
+			<main class="content-section">
+				<header id="header">
+					<h1>Hello Evano 👋,</h1>
+					<button class="content-section__menu-icon menu-btn-open">
+						<svg width="24" height="24">
+							<use href="./assets/svg/icons.svg#icon-menu"></use>
+						</svg>
+					</button>
+				</header>
+				<section class="content-section__content">
+					<div class="content-section__head">
+						<div class="content-section__head-text">
+							<h2>All Customers</h2>
+							<p>Active Members</p>
+						</div>
+						<div class="content-section__head-search-bar">
+							<svg
+								class="content-section__head-search-bar-icon"
+								width="24"
+								height="24"
+							>
+								<use href="./assets/svg/icons.svg#search"></use>
+							</svg>
+							<input type="text" placeholder="Search..." />
+						</div>
+					</div>
+					<table class="content-section__table">
+						<thead>
+							<tr>
+								<th>Customer Name</th>
+								<th>Company</th>
+								<th>Phone Number</th>
+								<th>Email</th>
+								<th>Country</th>
+								<th>Status</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td data-th="Customer Name">Jane Cooper</td>
+								<td data-th="Company ">Microsoft</td>
+								<td data-th="Phone Number">(225) 555-0118</td>
+								<td data-th="Email">jane@microsoft.com</td>
+								<td data-th="Country">United States</td>
+								<td data-th="Status">
+									<span class="status active">Active</span>
+								</td>
+							</tr>
+							<tr>
+								<td data-th="Customer Name">Floyd Miles</td>
+								<td data-th="Company">Yahoo</td>
+								<td data-th="Phone Number">(205) 555-0100</td>
+								<td data-th="Email">floyd@yahoo.com</td>
+								<td data-th="Country">Kiribati</td>
+								<td data-th="Status">
+									<span class="status inactive">Inactive</span>
+								</td>
+							</tr>
+							<tr>
+								<td data-th="Customer Name">Ronald Richards</td>
+								<td data-th="Company">Adobe</td>
+								<td data-th="Phone Number">(302) 555-0107</td>
+								<td data-th="Email">ronald@adobe.com</td>
+								<td data-th="Country">Israel</td>
+								<td data-th="Status">
+									<span class="status inactive">Inactive</span>
+								</td>
+							</tr>
+							<tr>
+								<td data-th="Customer Name">Marvin McKinney</td>
+								<td data-th="Company">Tesla</td>
+								<td data-th="Phone Number">(252) 555-0126</td>
+								<td data-th="Email">marvin@tesla.com</td>
+								<td data-th="Country">Iran</td>
+								<td data-th="Status">
+									<span class="status active">Active</span>
+								</td>
+							</tr>
+							<tr>
+								<td data-th="Customer Name">Jerome Bell</td>
+								<td data-th="Company">Google</td>
+								<td data-th="Phone Number">(629) 555-0129</td>
+								<td data-th="Email">jerome@google.com</td>
+								<td data-th="Country">Réunion</td>
+								<td data-th="Status">
+									<span class="status active">Active</span>
+								</td>
+							</tr>
+							<tr>
+								<td data-th="Customer Name">Kathryn Murphy</td>
+								<td data-th="Company">Microsoft</td>
+								<td data-th="Phone Number">(406) 555-0120</td>
+								<td data-th="Email">kathryn@microsoft.com</td>
+								<td data-th="Country">Curaçao</td>
+								<td data-th="Status">
+									<span class="status active">Active</span>
+								</td>
+							</tr>
+							<tr>
+								<td data-th="Customer Name">Jacob Jones</td>
+								<td data-th="Company">Yahoo</td>
+								<td data-th="Phone Number">(208) 555-0112</td>
+								<td data-th="Email">jacob@yahoo.com</td>
+								<td data-th="Country">Brazil</td>
+								<td data-th="Status">
+									<span class="status active">Active</span>
+								</td>
+							</tr>
+							<tr>
+								<td data-th="Customer Name">Kristin Watson</td>
+								<td data-th="Company">Facebook</td>
+								<td data-th="Phone Number">(704) 555-0127</td>
+								<td data-th="Email">kristin@facebook.com</td>
+								<td data-th="Country">Åland Islands</td>
+								<td data-th="Status">
+									<span class="status inactive">Inactive</span>
+								</td>
+							</tr>
+							<!-- Add more rows as necessary -->
+						</tbody>
+					</table>
+					<div class="content-section__pagination">
+						<span>Showing data 1 to 8 of 256K entries</span>
+						<ul class="content-section__pagination-list">
+							<li class="content-section__pagination-list-item">&#60;</li>
+							<li class="content-section__pagination-list-item active">1</li>
+							<li class="content-section__pagination-list-item">2</li>
+							<li class="content-section__pagination-list-item">3</li>
+							<li class="content-section__pagination-list-item">4</li>
+							<li style="margin-left: 12px">...</li>
+							<li class="content-section__pagination-list-item">40</li>
+							<li class="content-section__pagination-list-item">&#62;</li>
+						</ul>
+					</div>
+				</section>
+			</main>
+		</div>
+		<script src="./js/aside-active.js"></script>
+		<script src="./js/pagination-active.js"></script>
+		<script src="./js/header-stick.js"></script>
+		<script src="./js/mobile-menu.js"></script>
+	</body>
+</html>
